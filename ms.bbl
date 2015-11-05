@@ -1,0 +1,122 @@
+\begin{thebibliography}{13}
+\expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
+\expandafter\ifx\csname bibnamefont\endcsname\relax
+  \def\bibnamefont#1{#1}\fi
+\expandafter\ifx\csname bibfnamefont\endcsname\relax
+  \def\bibfnamefont#1{#1}\fi
+\expandafter\ifx\csname citenamefont\endcsname\relax
+  \def\citenamefont#1{#1}\fi
+\expandafter\ifx\csname url\endcsname\relax
+  \def\url#1{\texttt{#1}}\fi
+\expandafter\ifx\csname urlprefix\endcsname\relax\def\urlprefix{URL }\fi
+\providecommand{\bibinfo}[2]{#2}
+\providecommand{\eprint}[2][]{\url{#2}}
+
+\bibitem[{\citenamefont{{Schmidt} et~al.}(2014)\citenamefont{{Schmidt},
+  {Pajer}, and {Zaldarriaga}}}]{2014:tidal}
+\bibinfo{author}{\bibfnamefont{F.}~\bibnamefont{{Schmidt}}},
+  \bibinfo{author}{\bibfnamefont{E.}~\bibnamefont{{Pajer}}}, \bibnamefont{and}
+  \bibinfo{author}{\bibfnamefont{M.}~\bibnamefont{{Zaldarriaga}}},
+  \bibinfo{journal}{\prd} \textbf{\bibinfo{volume}{89}}, \bibinfo{eid}{083507}
+  (\bibinfo{year}{2014}), \eprint{1312.5616}.
+
+\bibitem[{\citenamefont{{Li} et~al.}(2014)\citenamefont{{Li}, {Hu}, and
+  {Takada}}}]{2014li}
+\bibinfo{author}{\bibfnamefont{Y.}~\bibnamefont{{Li}}},
+  \bibinfo{author}{\bibfnamefont{W.}~\bibnamefont{{Hu}}}, \bibnamefont{and}
+  \bibinfo{author}{\bibfnamefont{M.}~\bibnamefont{{Takada}}},
+  \bibinfo{journal}{\prd} \textbf{\bibinfo{volume}{90}}, \bibinfo{eid}{103530}
+  (\bibinfo{year}{2014}), \eprint{1408.1081}.
+
+\bibitem[{\citenamefont{{Pen} et~al.}(2012)\citenamefont{{Pen}, {Sheth},
+  {Harnois-Deraps}, {Chen}, and {Li}}}]{2012:pen}
+\bibinfo{author}{\bibfnamefont{U.-L.} \bibnamefont{{Pen}}},
+  \bibinfo{author}{\bibfnamefont{R.}~\bibnamefont{{Sheth}}},
+  \bibinfo{author}{\bibfnamefont{J.}~\bibnamefont{{Harnois-Deraps}}},
+  \bibinfo{author}{\bibfnamefont{X.}~\bibnamefont{{Chen}}}, \bibnamefont{and}
+  \bibinfo{author}{\bibfnamefont{Z.}~\bibnamefont{{Li}}},
+  \bibinfo{journal}{ArXiv e-prints}  (\bibinfo{year}{2012}),
+  \eprint{1202.5804}.
+
+\bibitem[{\citenamefont{{Lu} and {Pen}}(2008)}]{2008:lu}
+\bibinfo{author}{\bibfnamefont{T.}~\bibnamefont{{Lu}}} \bibnamefont{and}
+  \bibinfo{author}{\bibfnamefont{U.-L.} \bibnamefont{{Pen}}},
+  \bibinfo{journal}{\mnras} \textbf{\bibinfo{volume}{388}},
+  \bibinfo{pages}{1819} (\bibinfo{year}{2008}), \eprint{0710.1108}.
+
+\bibitem[{\citenamefont{{Lu} et~al.}(2010)\citenamefont{{Lu}, {Pen}, and
+  {Dor{\'e}}}}]{2010lu}
+\bibinfo{author}{\bibfnamefont{T.}~\bibnamefont{{Lu}}},
+  \bibinfo{author}{\bibfnamefont{U.-L.} \bibnamefont{{Pen}}}, \bibnamefont{and}
+  \bibinfo{author}{\bibfnamefont{O.}~\bibnamefont{{Dor{\'e}}}},
+  \bibinfo{journal}{\prd} \textbf{\bibinfo{volume}{81}}, \bibinfo{eid}{123015}
+  (\bibinfo{year}{2010}), \eprint{0905.0499}.
+
+\bibitem[{\citenamefont{{Jeong} and {Kamionkowski}}(2012)}]{2012:jeong}
+\bibinfo{author}{\bibfnamefont{D.}~\bibnamefont{{Jeong}}} \bibnamefont{and}
+  \bibinfo{author}{\bibfnamefont{M.}~\bibnamefont{{Kamionkowski}}},
+  \bibinfo{journal}{Physical Review Letters} \textbf{\bibinfo{volume}{108}},
+  \bibinfo{eid}{251301} (\bibinfo{year}{2012}), \eprint{1203.0302}.
+
+\bibitem[{\citenamefont{{Falck} et~al.}(2012)\citenamefont{{Falck}, {Neyrinck},
+  {Aragon-Calvo}, {Lavaux}, and {Szalay}}}]{2012:log}
+\bibinfo{author}{\bibfnamefont{B.~L.} \bibnamefont{{Falck}}},
+  \bibinfo{author}{\bibfnamefont{M.~C.} \bibnamefont{{Neyrinck}}},
+  \bibinfo{author}{\bibfnamefont{M.~A.} \bibnamefont{{Aragon-Calvo}}},
+  \bibinfo{author}{\bibfnamefont{G.}~\bibnamefont{{Lavaux}}}, \bibnamefont{and}
+  \bibinfo{author}{\bibfnamefont{A.~S.} \bibnamefont{{Szalay}}},
+  \bibinfo{journal}{\apj} \textbf{\bibinfo{volume}{745}}, \bibinfo{eid}{17}
+  (\bibinfo{year}{2012}), \eprint{1111.4466}.
+
+\bibitem[{\citenamefont{{Bucher} et~al.}(2012)\citenamefont{{Bucher},
+  {Carvalho}, {Moodley}, and {Remazeilles}}}]{2012bucher}
+\bibinfo{author}{\bibfnamefont{M.}~\bibnamefont{{Bucher}}},
+  \bibinfo{author}{\bibfnamefont{C.~S.} \bibnamefont{{Carvalho}}},
+  \bibinfo{author}{\bibfnamefont{K.}~\bibnamefont{{Moodley}}},
+  \bibnamefont{and}
+  \bibinfo{author}{\bibfnamefont{M.}~\bibnamefont{{Remazeilles}}},
+  \bibinfo{journal}{\prd} \textbf{\bibinfo{volume}{85}}, \bibinfo{eid}{043016}
+  (\bibinfo{year}{2012}), \eprint{1004.3285}.
+
+\bibitem[{\citenamefont{{Eardley} et~al.}(1973)\citenamefont{{Eardley}, {Lee},
+  {Lightman}, {Wagoner}, and {Will}}}]{1973gw}
+\bibinfo{author}{\bibfnamefont{D.~M.} \bibnamefont{{Eardley}}},
+  \bibinfo{author}{\bibfnamefont{D.~L.} \bibnamefont{{Lee}}},
+  \bibinfo{author}{\bibfnamefont{A.~P.} \bibnamefont{{Lightman}}},
+  \bibinfo{author}{\bibfnamefont{R.~V.} \bibnamefont{{Wagoner}}},
+  \bibnamefont{and} \bibinfo{author}{\bibfnamefont{C.~M.}
+  \bibnamefont{{Will}}}, \bibinfo{journal}{Physical Review Letters}
+  \textbf{\bibinfo{volume}{30}}, \bibinfo{pages}{884} (\bibinfo{year}{1973}).
+
+\bibitem[{\citenamefont{{Kaiser} and {Squires}}(1993)}]{1993kaiser}
+\bibinfo{author}{\bibfnamefont{N.}~\bibnamefont{{Kaiser}}} \bibnamefont{and}
+  \bibinfo{author}{\bibfnamefont{G.}~\bibnamefont{{Squires}}},
+  \bibinfo{journal}{\apj} \textbf{\bibinfo{volume}{404}}, \bibinfo{pages}{441}
+  (\bibinfo{year}{1993}).
+
+\bibitem[{\citenamefont{{Zaldarriaga} and {Seljak}}(1999)}]{1999matias}
+\bibinfo{author}{\bibfnamefont{M.}~\bibnamefont{{Zaldarriaga}}}
+  \bibnamefont{and} \bibinfo{author}{\bibfnamefont{U.}~\bibnamefont{{Seljak}}},
+  \bibinfo{journal}{\prd} \textbf{\bibinfo{volume}{59}}, \bibinfo{eid}{123507}
+  (\bibinfo{year}{1999}), \eprint{astro-ph/9810257}.
+
+\bibitem[{\citenamefont{{Harnois-D{\'e}raps}
+  et~al.}(2013)\citenamefont{{Harnois-D{\'e}raps}, {Pen}, {Iliev}, {Merz},
+  {Emberson}, and {Desjacques}}}]{2013:code}
+\bibinfo{author}{\bibfnamefont{J.}~\bibnamefont{{Harnois-D{\'e}raps}}},
+  \bibinfo{author}{\bibfnamefont{U.-L.} \bibnamefont{{Pen}}},
+  \bibinfo{author}{\bibfnamefont{I.~T.} \bibnamefont{{Iliev}}},
+  \bibinfo{author}{\bibfnamefont{H.}~\bibnamefont{{Merz}}},
+  \bibinfo{author}{\bibfnamefont{J.~D.} \bibnamefont{{Emberson}}},
+  \bibnamefont{and}
+  \bibinfo{author}{\bibfnamefont{V.}~\bibnamefont{{Desjacques}}},
+  \bibinfo{journal}{\mnras} \textbf{\bibinfo{volume}{436}},
+  \bibinfo{pages}{540} (\bibinfo{year}{2013}), \eprint{1208.5098}.
+
+\bibitem[{\citenamefont{{McDonald} and {Seljak}}(2009)}]{2009mcdonald}
+\bibinfo{author}{\bibfnamefont{P.}~\bibnamefont{{McDonald}}} \bibnamefont{and}
+  \bibinfo{author}{\bibfnamefont{U.}~\bibnamefont{{Seljak}}},
+  \bibinfo{journal}{\jcap} \textbf{\bibinfo{volume}{10}}, \bibinfo{eid}{007}
+  (\bibinfo{year}{2009}), \eprint{0810.0323}.
+
+\end{thebibliography}
