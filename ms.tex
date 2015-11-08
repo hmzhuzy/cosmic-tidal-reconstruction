@@ -86,19 +86,19 @@ The gravitational interaction of a long wavelength tidal field with
 small scale density fluctuations leads to anisotropic distortions of the local 
 %small scale matter 
 two point correlation function.
-Since the correlation function is known to be statistically 
-isotropic in the absence of tidal interactions, the tidal distorted parts
+Since the correlation function is statistically 
+isotropic in the absence of tidal interactions, the tidal distortions
 can be used to reconstruct the long wavelength tidal field in analogy with
-lensing of the CMB.
-In this paper we show that these distortions can be reconstructed and used 
-to probe the large scale distribution of dark matter in the Universe.
-The plentiful information encoded in the small scale structures allows accurate
+CMB lensing.
+In this paper we quantify how the optimal reconstrunction using these
+tidal distortions.
+The information encoded in the small scale structures enables accurate
 reconstruction of the matter density field on large scales, 
 $k\lesssim0.1h/\mr{Mpc}$.
 We perform cosmic tidal reconstruction in $N$-body simulations and find the 
 cross correlation coefficient between the reconstructed field and the original
 density field is above 0.8 and close to 0.9 on some scales.
-This helps the reconstruction of radial modes lost in 21cm intensity mapping
+This allows the reconstruction of radial modes lost in 21cm intensity mapping
 surveys.
 
 %(old abstract)We provide a comprehensive illustration of cosmic tidal 
@@ -115,18 +115,16 @@ surveys.
 
 \section{Introduction}
 The large scale structure contains a wealth of information about our Universe.
-The cosmic acceleration, neutrino masses, early universe models and a lot of 
-other properties of the Universe can  be learned with current or upcoming surveys.
-From what we have already learned,  the initial density perturbations have small amplitudes and 
-nearly Gaussian distributions with different Fourier modes independent with each other, 
-these grow due to gravitational interaction, nonlinearities developed and couplings 
+The cosmic acceleration, neutrino masses, early universe models and  
+other properties of the Universe can  be inferred with current or upcoming surveys.
+Current data indicate a university with small Gaussian initial density perturbations. 
+These grow due to gravitational interaction, nonlinearities develope and couplings 
 between different modes were induced.
 This leads to striking non-Gaussian features in the present large scale structure
 of the Universe, limiting the cosmological information that can be extracted 
 from galaxy surveys.
-%making it hard to extract the small scale primordial perturbations from the survey. 
 At the same time, however, such correlations between the different
-perturbation modes on different scales also imply that we could infer a lot about the large scale 
+perturbation modes on different scales also imply that we could infer information about the large scale  
 density field by observing small scale density fluctuations.
 
 The basic idea of such reconstruction is that the evolution of 
@@ -141,8 +139,8 @@ is induced by the long wavelength tidal field
 $t_{ij}=\Phi_{L,ij}-\delta_{ij}\nabla^2\Phi_{L}/3$.
 Using the isotropic modulation on the small scale power spectrum to recover
 the large scale density field were studied in Ref.\cite{2014li}.
-\textcolor{blue}{ue-li can you add something about Bond's work here?
-I'm not very clear what they have done.}
+%\textcolor{blue}{ue-li can you add something about Bond's work here?
+%I'm not very clear what they have done.}
 However, the anisotropic distortions are more robust, since many other 
 processes can also lead to isotropic distortions in the local small scale 
 power spectrum. By applying quadratic estimators which quantify the local 
@@ -176,7 +174,7 @@ to the small scale density fluctuations and superscript $(0)$ denotes some
 ``initial'' time. 
 %If we make a decomposition in the line of sight (l.o.s.) direction,  
 %the anisotropic (traceless) tidal field tensor $t_{ij}$ can be written in the following form:
-The anisotropic distortion can be decomposed into sevaral orthogonal quadrupolar
+The anisotropic distortion can be decomposed into several orthogonal quadrupolar
 distortions if we write $t_{ij}$ in the following form:
 \begin{eqnarray}
 t_{ij}=\left( \begin{array}{ccc}
@@ -184,13 +182,17 @@ t_{ij}=\left( \begin{array}{ccc}
 \gamma_{2} & -\gamma_{1}-\gamma_{z} & \gamma_{y}\\
 \gamma_{x} & \gamma_{y} & 2\gamma_z
 \end{array} \right).
+\label{eqn:tidalshear}
 \end{eqnarray}
-We are interested in two transverse shear terms 
+While (\ref{eqn:tidalshear}) in principle has 6 independently observable components,
+we will be focussing on  the
+two transverse shear terms 
 $(\hat{k}_1^2-\hat{k}_2^2)\gamma_1^{(0)}P_{1s}f$
 and $2\hat{k}_1\hat{k}_2\gamma_2^{(0)}P_{1s}f$, which 
 describe orthogonal quadrupolar distortions in the tangential plane perpendicular 
-to the line of sight, while the quadrupolar distortions concerning $\hat{k}_3$
-will be affected by peculiar velocities.
+to the line of sight.  The quadrupolar distortions containing $\hat{k}_3$
+will be affected by peculiar velocities, and require additional treatments beyond the
+scope of this paper.
 Here $\gamma_{+}=(\Phi_{L,11}-\Phi_{L,22})/2$ and $\gamma_{\times}=\Phi_{L,12}$.
 These two tidal shear fields can be converted into the 2D convergence field
 $\kappa_\mr{2D}=(\Phi_{L,11}+\Phi_{L,22})/2$ 
@@ -228,9 +230,17 @@ The noise is infinite when $k_\perp\to0$.
 In this case, we expect these modes contain nothing but noise. 
 The well reconstructed modes are those with small $k_\parallel$ and large
 $k_\perp$. This helps the correlation of 21cm intensity mapping survey with
-other cosmic probes ... \textcolor{blue}{ue-li can you add something here?}
+other cosmic probes, including ISW, lensing, photo-z, optical depth,
+and others.  These low  $k_\parallel$ are normally lost in the
+foreground subtraction process \cite{2007ApJ...660.1030F,2008MNRAS.384..291A}.
 
-The local quadrupolar distortions have also been discussed in \cite{2012:jeong}.\textcolor{blue}{ue-li can you also add something here?}
+%... \textcolor{blue}{ue-li can you add something here?}
+
+The local quadrupolar distortions have also been discussed in
+\cite{masui2010,2012:jeong}
+%\textcolor{blue}{ue-li can you also add something here?}
+where the theoretical constructions were outlined.  This paper expands
+on the early work by considering puirely transverse reconstructions.
 
 %In Table I, we summarize the notations we adopted in this paper.
 The remaining part of this paper is organized as follows.
